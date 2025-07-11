@@ -1,9 +1,11 @@
-import React from "react";
 
+import SearchBar from '../FindJobs/SearchBar'; 
+import Jobs from '../FindJobs/Jobs';
 const FindJobs = () => {
   return (
-    <div className="p-8">
-      <h1>Find Jobs Page</h1>
+    <div className="min-h-[100vh] bg-mine-shaft-950 font-['poppins']">
+      <SearchBar />
+      <Jobs/>
     </div>
   );
 };

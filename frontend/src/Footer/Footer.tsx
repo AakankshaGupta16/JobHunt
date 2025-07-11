@@ -6,8 +6,7 @@ import { footerLinks } from "../Data/Data";
 
 const Footer = () => {
   return (
-    <div className="mt-20 pb-5"> {/* Outer container, similar to other sections */}
-      <div className="flex px-16 justify-between items-start"> {/* Main flex container for footer content */}
+<div className="pt-20 pb-5 flex gap-5 justify-around bg-mine-shaft-950 font-['poppins']">      <div className="flex px-16 justify-between items-start"> {/* Main flex container for footer content */}
 
         {/* Left Section: JobHook Logo/Text and Description */}
         <div className="w-1/4 flex flex-col gap-4"> {/* w-1/4 for width, flex-col for stacking, gap for spacing */}

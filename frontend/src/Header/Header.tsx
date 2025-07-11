@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="w-full bg-mise-shaft-950 px-6 text-white h-20 flex justify-between items-center">
+    <div className="w-full bg-mine-shaft-950 px-6 text-white h-20 flex justify-between items-center">
 
       <div className="flex gap-3 items-center text-bright-sun-400">
         <IconBriefcase className="h-10 w-10" stroke={2} />

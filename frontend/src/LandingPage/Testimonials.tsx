@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Avatar, Rating } from "@mantine/core"; // Correct import for Mantine components
 import { testimonials } from "../Data/Data"; // Assuming this path is correct for your testimonials data
 
