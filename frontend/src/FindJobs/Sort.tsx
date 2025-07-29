@@ -19,7 +19,7 @@ const Sort=()=> {
   });
 
   const options = opt.map((item) => (
-      <Combobox.Option value={item} key={item}>
+      <Combobox.Option className='!text-xs' value={item} key={item}>
         {item}
       </Combobox.Option>
     ));
@@ -29,9 +29,8 @@ const Sort=()=> {
 
       <Combobox
         store={combobox}
-        width={250}
+        width={150}
         position="bottom-start"
-        withArrow
         onOptionSubmit={(val) => {
           setSelectedItem(val);
           combobox.closeDropdown();
@@ -39,7 +38,7 @@ const Sort=()=> {
       >
         <Combobox.Target>
   
-  <div className="border border-bright-sun-400 flex px-2 py-1 rounded-xl items-center" >
+  <div onClick={()=>combobox.toggleDropdown()} className="cursor-pointer border border-bright-sun-400 flex text-sm gap-2 px-2 py-1 rounded-xl items-center" >
     {selectedItem} <IconAdjustments className='h-5 w-5 bright-sun-400'/>
   </div>
 </Combobox.Target>
